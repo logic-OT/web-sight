@@ -9,9 +9,18 @@ Simply provide Web-sight with a clear instruction and include the URL of the web
 # Demo
 Find the demo on my hugging face space:  [selfDotOsman](https://huggingface.co/spaces/selfDotOsman/Web-sight)
 
-# Details
-- **Model:** Mistral 7B
-- **RAG:**
-  - Text Splitter: Recursive Text Split
-  - Vector Databse: FAISS
+# Installing and Executing program
+
+1. Clone repository
+    ```
+    git clone git@github.com:logic-ot/web-sight.git
+    ```
+2. Installing Depedencies
+    ```
+    pip install -r requirements.txt
+    ```
+3. Run flask
+   ```
+   python app.py
+   ```
 
