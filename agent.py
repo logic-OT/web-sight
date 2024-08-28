@@ -29,4 +29,4 @@ def Model(user_query):
       else:
         return system_prompt_chain.run(user_query, callbacks=callbacks)
     except:
-      return "The was a responding to your query. Please try again later!"
+      return "There was a problem responding to your query. Please try again later!"
