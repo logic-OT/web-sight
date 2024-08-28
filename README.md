@@ -8,3 +8,10 @@ Simply provide Web-sight with a clear instruction and include the URL of the web
 ***Kindly leave star ⭐ if you found this repo useful***
 # Demo
 Find the demo on my hugging face space:  [selfDotOsman](https://huggingface.co/spaces/selfDotOsman/Web-sight)
+
+# Details
+- **Model:** Mistral 7B
+- **RAG:**
+  - Text Splitter: Recursive Text Split
+  - Vector Databse: FAISS
+
